@@ -50,7 +50,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.possiblefinance.iv.IV_Exercise_1.IvExercise1Application</mainClass>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-
 </project>
